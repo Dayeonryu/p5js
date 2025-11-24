@@ -1,14 +1,16 @@
 html, body {
   margin: 0;
   padding: 0;
+  height: 100%;
 }
 
 body {
-  /* flex 제거 */
-  text-align: center;   /* 제목 가운데 정렬 */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 canvas {
   display: block;
-  margin: 0 auto;       /* 캔버스를 가운데 정렬 */
 }
